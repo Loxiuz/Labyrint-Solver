@@ -1,0 +1,49 @@
+body {
+  background-color: gray;
+  color: white;
+}
+
+#board {
+  display: grid;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgb(152, 152, 152);
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+}
+
+.north {
+  border-top: 2px solid black;
+}
+
+.south {
+  border-bottom: 2px solid black;
+}
+
+.east {
+  border-right: 2px solid black;
+}
+
+.west {
+  border-left: 2px solid black;
+}
+
+.start {
+  background-color: green;
+}
+
+.goal {
+  background-color: rgb(156, 38, 38);
+}
+
+.route {
+  height: 50%;
+  width: 50%;
+  background-color: rgba(71, 71, 186, 0.51);
+}
