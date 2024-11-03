@@ -5,4 +5,4 @@ at gemme ruten og en til besøgte celler.
 
 Ruten bliver udregnet i den recursive funktion, men bliver først vist som helhed når målet er ramt.
 
-Deployet udgave: 
+Deployment: https://loxiuz.github.io/Labyrint-Solver/
